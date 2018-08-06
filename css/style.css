@@ -1,0 +1,30 @@
+.results{
+    margin-top: 80px;
+    height: 400px
+}
+.nav{
+    height: 60px;
+}
+.icon{
+    width: 54px;
+    height: 56px;
+}
+.cardDiv{
+    overflow-y: auto;
+    height: 380px;
+    padding-left: 48px !important;
+    padding-right: 48px !important 
+}
+.card-title{
+    height: 60px;
+}
+@media(max-width:768px){
+    .card{
+        margin: auto !important;
+        width: 100% !important
+    }
+    .cardDiv{
+        padding-left: 0px !important;
+        padding-right: 0px !important
+    }
+}

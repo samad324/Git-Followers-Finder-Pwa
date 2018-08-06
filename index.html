@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <title>Git Followers</title>
+</head>
+
+<body>
+    <div class="bg-dark mt-0 nav d-flex flex-row">
+        <img src="images/icon2.png" class="icon d-inline-block ml-2">
+        <h2 class="text-white ml-2 align-self-center">Git Follower...</h2>
+    </div>
+
+    <div class="container border border-secondary mt-5 rounded">
+        <form onsubmit="getData(event)">
+            <input id="input" type="text" placeholder="Git username....." class="form-control d-inline-block my-4">
+            <button class="btn btn-dark float-right mt-4 mr-2 " type="submit">search</button>
+        </form>
+    </div>
+
+    <div id="result" class="container border border-secondary rounded results d-flex flex-row justify-content-center ">
+            <h4 class="text-secondary align-self-center">No Results</h4>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
